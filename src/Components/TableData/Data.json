@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "dateUpdated": "11 Nov 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 2,
+        "dateUpdated": "10 Nov 2021",
+        "title": "Hammer",
+        "details": "This is a Screw to do work with",
+        "status": "Alright",
+        "Quantity": "122/230",
+        "unitePrice": "$10",
+        "Amount ": "$1220.00"
+    },
+    {
+        "id": 3,
+        "dateUpdated": "28 Oct 2021",
+        "title": "Hammer",
+        "details": "",
+        "status": "Out of Stock",
+        "Quantity": "0/200",
+        "unitePrice": "$10",
+        "Amount ": "$0.00"
+    },
+    {
+        "id": 4,
+        "dateUpdated": "22 Oct 2021",
+        "title": "Hammer",
+        "details": "",
+        "status": "Out of Stock",
+        "Quantity": "0/200",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 5,
+        "dateUpdated": "11 Nov 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 6,
+        "dateUpdated": "16 Oct 2021",
+        "title": "Hammer",
+        "details": "",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 7,
+        "dateUpdated": "9 Oct 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 8,
+        "dateUpdated": "5 Oct 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 9,
+        "dateUpdated": "1 Oct 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    },
+    {
+        "id": 10,
+        "dateUpdated": "23 Sep 2021",
+        "title": "Hammer",
+        "details": "This is a hammer to do work with",
+        "status": "Alright",
+        "Quantity": "200/300",
+        "unitePrice": "$10",
+        "Amount ": "$2000.00"
+    }
+]

@@ -1,0 +1,44 @@
+.table-section {
+    border-left: 1px solid #E5E5E6;
+}
+
+.Table {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px rgba(20, 40, 82, 0.08), 0px 24px 24px rgba(20, 40, 82, 0.04);
+    border-radius: 4px;
+    margin: 24px;
+}
+
+.inventory {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #3E3F48;
+    padding: 16px;
+    padding-bottom: 17px;
+    padding-left: 24px;
+    height: 48px;
+}
+
+.inventory-border-bottom {
+    border-bottom: 1px solid #E5E5E6;
+}
+
+.table-input {
+    height: 40px;
+    width: 392px;
+    background: #F2F2F3;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+.table-margin {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+.table-input input {
+    background-color: #F2F2F3;
+}

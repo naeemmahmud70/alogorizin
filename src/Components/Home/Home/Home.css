@@ -1,0 +1,15 @@
+@media only screen and (max-width: 520px) {
+    .Reverse-column {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .sidebar-bottom-sticky {
+        position: fixed;
+        bottom: 25px;
+    }
+}
+
+.bg-gray-color {
+    background: #F2F2F3;
+}

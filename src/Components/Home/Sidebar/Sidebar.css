@@ -1,0 +1,54 @@
+.home-icon {
+    padding-right: 9.4px;
+    margin-left: -5px;
+}
+
+.inventory-icon {
+    padding-right: 15px;
+}
+
+.documents-icon {
+    padding-right: 11.5px;
+}
+
+.settings-icon {
+    padding-right: 10.49px;
+}
+
+.side-tabs {
+    padding-left: 35px;
+    padding-top: 35.5px;
+}
+
+
+.icon-div {
+    margin-top: 19.5px;
+}
+
+.tab-name a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #6B6C72;
+}
+
+@media only screen and (min-width: 768px) {
+    .sidebar {
+        background: #F2F2F3;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .tab-name {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .side-tabs {
+        display: flex;
+        justify-content: space-between;
+    }
+}

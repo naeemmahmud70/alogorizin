@@ -32,9 +32,39 @@ const Table = () => {
           </form>
         </div>
 
-        <div>
-          <h1>This is table {tableData.length}</h1>
+        <div className="table-responsive col-sm-12">
+            <table className="table table-borderless table-light table-striped">
+                <thead>
+                    <tr>
+                        <th className="text-secondary text-center" scope="col">Date Updated</th>
+                        <th className="text-secondary" scope="col">Title</th>
+                        <th className="text-secondary" scope="col">Details</th>
+                        <th className="text-secondary" scope="col">Status</th>
+                        <th className="text-secondary" scope="col">Quantity</th>
+                        <th className="text-secondary" scope="col">Unit Price</th>
+                        <th className="text-secondary" scope="col">Amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        tableData.map((data) =>
+                            <tr>
+                               
+                                <td>{data.dateUpdated}</td>
+                                <td>${data.title}</td>
+                                <td className="td-width">{data.details}</td>
+                                <td>{data.status}</td>
+                                <td>{data.Quantity}</td>
+                                <td>{data.unitePrice}</td>
+                                <td>{data.Amount}</td>
+                            </tr>
+                        )
+                    }
+                </tbody>
+            </table>
+        
         </div>
+
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ import image from "../../../Assests/Ellipse 1.png";
 
 const Header = () => {
   return (
-    <div className="header d-flex justify-content-between">
+    <div className="header d-flex justify-content-between sticky-top t-0 bg-light">
       <div className="d-flex">
         <div className="d-flex starbucks-div">
           <p className="startbucks">Starbucks</p>

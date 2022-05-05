@@ -1,3 +1,7 @@
+.bg-gray-color {
+    background: #F2F2F3;
+}
+
 @media only screen and (max-width: 520px) {
     .Reverse-column {
         display: flex;
@@ -6,10 +10,8 @@
 
     .sidebar-bottom-sticky {
         position: fixed;
-        bottom: 25px;
+        bottom: -5px;
+        padding-bottom: 20px;
+        margin-top: 20px;
     }
-}
-
-.bg-gray-color {
-    background: #F2F2F3;
 }

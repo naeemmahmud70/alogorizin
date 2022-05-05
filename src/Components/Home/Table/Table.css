@@ -1,5 +1,6 @@
 .table-section {
     border-left: 1px solid #E5E5E6;
+    margin-bottom: 90px;
 }
 
 .Table {
@@ -9,6 +10,7 @@
     margin: 24px;
 }
 
+/* Table header styles */
 .inventory {
     font-weight: 700;
     font-size: 20px;
@@ -42,6 +44,111 @@
 .table-input input {
     background-color: #F2F2F3;
 }
-.td-width{
+
+/* Main table styles */
+.tableHeading {
+    background-color: #FDF4ED;
+}
+
+th {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #3E3F48;
+}
+
+.table-header-icon {
+    margin-left: 5px;
+}
+
+td {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #3E3F48;
+}
+
+.table-header {
+    height: 41px;
+}
+
+.table-data-row {
+    height: 64px;
+}
+
+.status {
+    padding-left: 8px;
+}
+
+/* Table footer styles */
+
+.left-dropDown {
+    padding: 8px 8px;
     width: 200px;
+    background: #FFFFFF;
+    border: 1px solid #B2B2B6;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #88898E;
+}
+
+.right-dropDown {
+    width: 160px;
+    padding: 8px 8px;
+    background: #FFFFFF;
+    border: 1px solid #B2B2B6;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #88898E;
+}
+
+.pagination-icon {
+    color: #88898E;
+}
+
+.pagination-item {
+    height: 30px;
+    padding-left: 15px;
+}
+
+.table-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 425px) {
+    .left-dropDown {
+        display: none;
+    }
+
+    .Table {
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .display-hide-for-tablet {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .display-hide-for-mobile {
+        display: none;
+    }
 }

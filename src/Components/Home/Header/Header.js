@@ -32,18 +32,16 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="">
-        <div className="d-flex header-right-icons-div">
-          <span>
-            <FontAwesomeIcon id="bell-icon" icon={faBell} />
-          </span>
-          <div>
-            <img id="john-img" src={image} alt="" />
-          </div>
-          <div className="d-flex john">
-            <p className="startbucks">John Doe</p>
-            <FontAwesomeIcon className="mx-2" icon={faSortDown} />
-          </div>
+      <div className="d-flex header-right-icons-div">
+        <span>
+          <FontAwesomeIcon id="bell-icon" icon={faBell} />
+        </span>
+        <div>
+          <img id="john-img" src={image} alt="" />
+        </div>
+        <div className="d-flex john">
+          <p className="startbucks">John Doe</p>
+          <FontAwesomeIcon className="mx-2" icon={faSortDown} />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 .header {
     border-bottom: 1px solid #E5E5E6;
     height: 63px;
+    width: 100%;
 }
 
 .startbucks {
@@ -26,19 +27,6 @@
     margin-left: 128px;
 }
 
-@media only screen and (max-width: 768px) {
-    .header-input {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .display-none {
-        display: none;
-    }
-}
-
-
 .header-input input {
     background-color: #F2F2F3;
 }
@@ -61,12 +49,22 @@
     margin-right: 28px;
 }
 
-#bell-icon {}
-
 #john-img {
     width: 32px;
     height: 32px;
     margin-right: 16px;
     margin-left: 19px;
     margin-top: -5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-input {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .display-none {
+        display: none;
+    }
 }

@@ -9,6 +9,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar row">
       <div className="side-tabs">
+
         <div className="icon-div d-flex">
           <div className="home-icon">
             <img src={home} alt="" />
@@ -17,6 +18,7 @@ const Sidebar = () => {
             <a href="">Home</a>
           </div>
         </div>
+
         <div className="icon-div d-flex">
           <div className="inventory-icon">
             <img src={inventory} alt="" />
@@ -25,6 +27,7 @@ const Sidebar = () => {
             <a href="">Inventory</a>
           </div>
         </div>
+
         <div className="icon-div d-flex">
           <div className="documents-icon">
             <img src={documents} alt="" />
@@ -33,6 +36,7 @@ const Sidebar = () => {
             <a href="">Documents</a>
           </div>
         </div>
+
         <div className="icon-div d-flex">
           <div className="settings-icon">
             <img src={setting} alt="" />
@@ -41,6 +45,7 @@ const Sidebar = () => {
             <a href="">Settings</a>
           </div>
         </div>
+
       </div>
     </div>
   );
